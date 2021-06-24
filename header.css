@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  height: 70px;
+  line-height: 70px;
+  background: #fff;
+  border-bottom: 2px solid red;
+}
+.logo {
+  width: 80px;
+  height: 65px;
+  float: left;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/*This is for ul tag */
+.menu {
+  float: right;
+}
+.menu li {
+  float: left;
+  width: 120px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  list-style: none;
+}
+.menu li a {
+  color: #000;
+  text-decoration: none;
+  font-family: calibri;
+  text-transform: uppercsae;
+  display: block;
+}
+.menu li :hover {
+  background: #dc3545;
+}
+.menu li a:hover {
+  color: #fff;
+}
